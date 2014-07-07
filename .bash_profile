@@ -19,7 +19,6 @@ alias sbn='cd ~/Code/sbn'
 alias vc='cd ~/Code/voxcar'
 alias grim='cd ~/Code/grimoire'
 alias ss='be rails s'
-alias pcc='cd ~/Personal/polycount/code/polycount/'
 
 export BUNDLER_EDITOR=subl
 
