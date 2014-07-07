@@ -15,9 +15,9 @@ alias gs='git status'
 alias gd='git diff'
 alias ga='git add .'
 alias bfs='be foreman start'
-alias sbn='cd ~/Code/sbn'
-alias vc='cd ~/Code/voxcar'
-alias grim='cd ~/Code/grimoire'
+alias sbn='cd ~/Projects/sbn'
+alias vc='cd ~/Projects/voxcar'
+alias grim='cd ~/Projects/grimoire'
 alias ss='be rails s'
 
 export BUNDLER_EDITOR=subl
