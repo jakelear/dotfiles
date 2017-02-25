@@ -1,10 +1,12 @@
 [
-    { "keys": ["super+shift+r"], "command": "reveal_in_side_bar"},
-    { "keys": ["j", "j"], "command": "exit_insert_mode",
-    "context":
-    [
-        { "key": "setting.command_mode", "operand": false },
-        { "key": "setting.is_widget", "operand": false }
-    ]
-}
+	{ "keys": ["command+shift+r"], "command": "reveal_in_side_bar"},
+	{ "keys": ["shift+command+m"], "command": "goto_definition" },
+	{ "keys": ["command+shift+a"], "command": "sort_lines", "args": {"case_sensitive": false} },
+	{ "keys": ["j", "j"], "command": "exit_insert_mode",
+		"context":
+		[
+				{ "key": "setting.command_mode", "operand": false },
+				{ "key": "setting.is_widget", "operand": false }
+		]
+	}
 ]
