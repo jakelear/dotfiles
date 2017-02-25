@@ -1,17 +1,30 @@
 {
-	"auto_close_tags": false,
-	"bold_folder_labels": true,
-	"caret_style": "phase",
-	"color_scheme": "Packages/User/base16-ocean.dark (SL).tmTheme",
-	"font_size": 18.0,
-	"highlight_line": true,
+	"draw_indent_guides": true,
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"asset_version_index"
+	],
+	"folder_exclude_patterns":
+	[
+		".bundle",
+		".git",
+		".github",
+		".sass-cache",
+		"node_modules",
+		"log",
+		"tmp/assets"
+	],
+	"font_size": 12,
 	"ignored_packages":
 	[
-		"TrailingSpaces",
-		"SublimeLinter"
+		"SideBarEnhancements"
 	],
-	"scroll_past_end": true,
+	"search_in_project_engine": "git_grep",
 	"tab_size": 2,
-	"theme": "Spacegray.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"tabs_small": true,
+	"theme": "Afterglow.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true
 }
